@@ -508,13 +508,13 @@ footer{
 /* 
     TO DO: add styles to the last paragraph in this section that will:
         - add margin:
-            - top: 1rem
+            - top: 1rem 
             - right: 0
             - bottom: 1rem
             - left: 0
 */
 #section4 p:last-of-type{
-
+    margin: 1rem 0;
 }
 
 /* ------------- SECTION 5 STYLES ---------------- */
@@ -551,6 +551,7 @@ footer{
         - add the puppy-photo as a repeating background to the container
 */
 #bg-img-3{
+    background: var(--lt-blue) center url("images/puppy-photo.jpg");
     
 }
 
